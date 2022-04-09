@@ -1,1 +1,1 @@
-# Curso_de_Logica
+# Curso de Lógica
