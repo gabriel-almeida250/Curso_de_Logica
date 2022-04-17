@@ -1,0 +1,18 @@
+Vantagens de se usar programação orientada a objeitos by CURSO EM VÍDEO
+
+COMERNada
+C de Confiável 
+    O isolamento entre as partes gera um software seguro. Ao alterar uma parte, nenhuma outra é afetada.
+O de Oportuno
+    Ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
+M de Manutenível 
+    Atualizar um software é mais fácil. Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
+E de Extensível 
+    O software não é estático. Ele deve crescer para pemanecer útil.
+R de Reultlizável
+    Podemos usar o objetos de um sistema que criamos em outro sistema futuro.
+N de Natural 
+    Mais fácil de entendeder. Você se preocupa mais na funcionalidade do que nos detalhes de inplimentação.
+a
+d
+a.

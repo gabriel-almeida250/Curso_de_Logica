@@ -1,0 +1,95 @@
+1° Atividade, identifique dois objetos ao seu redor e classifique-os.
+Caderno
+
+Atributos
+Capa
+Folhas
+
+
+
+Métodos
+Abrir
+Fechar
+Escrever
+Anotar
+Marcar
+Destacar
+
+Estado
+Fechada
+92% usada
+Em branco
+------------------------------------------------------------------------
+Impressora
+
+Atributos
+Cabo energia
+Cabo USB
+Scanner
+Carrinho
+Cartucho
+Visor
+Botões
+
+Métodos
+Imprimir
+Ligar
+Desligar
+Scanear
+Copiar
+Abrir tampa Scanner
+Fechar tampa Scanner
+
+Estado
+Desligada
+Fechada
+Conectada
+Carregada de papel
+
+Objetos abstratos:
+
+Festa
+
+Atributos
+Comida
+Churrasco
+Refrigerante
+Música
+Dança
+Presentes
+Bolo
+
+Métodos
+Confirmar presença
+Presentear
+Dançar
+Beber
+Comer
+Divertir
+Conversar
+Tirar fotos
+
+Estado
+Marcada
+Confirmada
+------------------------------------------------------------------------
+Viagem
+
+Atributos
+Carro
+Estrada
+Destino
+Bagagem
+Mapa/GPS
+Hotel
+
+Métodos
+Dirigir
+Divertir
+Planejar
+Curtir
+Tirar fotos
+
+Estado
+Em andamento
+40% concluída
