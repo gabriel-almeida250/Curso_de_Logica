@@ -60,23 +60,26 @@ public class ContaCorrente {
 		this.status = true;
 		if (this.tipoConta == "CC") {
 			this.saldo = 50.0;
+			System.out.println("Conta aberta com sucesso!!");
 		} else if (this.tipoConta == "CP") {
 			this.saldo = 150.0;
+			System.out.println("Conta aberta com sucesso!!");
 		}
 	}
 
 	public void fecharConta() {
 		if (this.status == true && this.saldo == 0) {
 			this.status = false;
-			System.out.println("Sua conta está fechada");
+			System.out.println("Sua conta está fechada!");
 		} else {
-			System.out.println("Retire seu saldo da conta");
+			System.out.println("Retire seu saldo da conta!");
 		}
 	}
 
 	public void depositar(double depositar) {
 		if (this.status == true) {
 			this.saldo = this.saldo + depositar;
+			System.out.println("Deposito feito com sucesso!!");
 		} else {
 			System.out.println("Essa conta não está aberta");
 		}
@@ -85,22 +88,24 @@ public class ContaCorrente {
 	public void sacar(double sacar) {
 		if (this.status == true && sacar <= this.saldo) {
 			this.saldo = this.saldo - sacar;
-			System.out.println("Saque feito com sucesso");
+			System.out.println("Saque feito com sucesso!!");
 		} else {
-			System.out.println("Saque inválido");
+			System.out.println("Saque inválido!");
 		}
 	}
 
 	public void pagarMensal() {
 		if (this.status == true && this.tipoConta == "CC" && this.saldo > 12) {
+			System.out.println("Mensalidade paga!");
 			this.saldo = this.saldo - 12;
 		} else if (this.status == true && this.tipoConta == "CP" && this.saldo < 20) {
+			System.out.println("Mensalidade paga!");
 			this.saldo = this.saldo - 20;
 		} else {
-			System.out.println("Saldo Insuficiente");
+			System.out.println("Saldo Insuficiente!");
 		}
 		if (this.status == false) {
-			System.out.println("Impossível pagar");
+			System.out.println("Impossível pagar!");
 		}
 	}
 
