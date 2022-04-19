@@ -13,10 +13,8 @@ public class TesteLuta {
 		l[5] = new Lutador("Quem", "EUA", 30, 1.81, 105.7, 12, 2, 4);
 
 		Luta l1 = new Luta();
-		l1.marcarLuta(l[0], l[1]);
-		l1.lutar();
-		l[0].statusLutador();
-		l[1].statusLutador();
+		l[4].apresentarLutador();
+		l[0].apresentarLutador();
 	}
 
 }

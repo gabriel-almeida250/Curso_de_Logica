@@ -54,29 +54,31 @@ public class Luta {
 
 	public void lutar() {
 		if (this.isAprovado()) {
+			System.out.println("### DESAFIANTE ###");
 			desafiante.apresentarLutador();
+			System.out.println("### DESAFIADO ###");
 			desafiado.apresentarLutador();
 			Random aleatorio = new Random();
 			int vencedor = aleatorio.nextInt(3);
 			switch (vencedor) {
 			case 0:
-				System.out.println("Empatou");
+				System.out.println("Empatou!");
 				this.desafiado.empatarLuta();
 				this.desafiante.empatarLuta();
 				break;
 			case 1:
-				System.out.println("vitoria: " + this.desafiante.getNome());
+				System.out.println("Vitoria do " + this.desafiante.getNome());
 				this.desafiante.ganharLuta();
 				this.desafiado.perderLuta();
 				break;
 			case 2:
-				System.out.println("vitoria " + this.desafiado.getNome());
+				System.out.println("Vitoria do " + this.desafiado.getNome());
 				this.desafiado.ganharLuta();
 				this.desafiante.perderLuta();
 				break;
 			}
 		} else {
-			System.out.println("Luta não pode acontecer");
+			System.out.println("A luta não pode acontecer");
 		}
 	}
 }
